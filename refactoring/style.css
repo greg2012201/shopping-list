@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background: url(images/owoce-warzywa.jpeg);
+    background-size: cover;
+    width: 100%;
+
+}
+
+.wrapper {
+    box-sizing: border-box;
+    width: 600px;
+    margin: 30px auto;
+    background: rgba(240, 240, 240, .9);
+    text-align: center;
+    padding: 15px;
+    padding-right: 100px;
+    padding-left: 100px;
+
+
+}
+
+h1 {
+    font-family: Helvetica;
+    text-shadow: 3px 2px 1px #556;
+    margin-bottom: 30px;
+}
+
+.editableListTitle {
+    display: none;
+}
+
+.outputListTitle {
+    display: none;
+
+
+}
+
+.buttonContainer {
+    margin-bottom: 20px;
+    background: rgba(110, 103, 103, 0.1);
+    width: 398px;
+    height: 100px;
+    border: 1px groove;
+    border-color: black;
+
+}
+
+.buttons {
+    height: 30px;
+    border: 0.5px solid;
+    padding: 3px;
+
+}
+
+.userAdd {
+    height: 30px;
+    padding: 0 5px;
+    float: left;
+    font-family: Helvetica;
+    margin-bottom: 5px;
+
+}
+
+.userSearch {
+    height: 34px;
+    font-family: Helvetica;
+    padding: 0 5px;
+    float: left;
+    margin-bottom: 5px;
+    margin-right: 100px;
+}
+
+
+
+.add {
+    height: 34px;
+    padding: 0 5px;
+    font-family: Helvetica;
+    float: right;
+}
+
+.quantity {
+    height: 30px;
+    width: 30px;
+    float: left;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+    font-family: Helvetica;
+}
+
+.unit {
+    height: 34px;
+    width: 50px;
+    float: left;
+    font-family: Helvetica;
+}
+
+span {
+    display: inline-block;
+}
+
+
+.list {
+    /* border: 1px solid; */
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: 30px;
+    /* padding-right: 5px;
+    padding-left: 5px; */
+    width: 398px;
+    max-width: 398px;
+    overflow: hidden;
+    display: inline-block;
+
+
+
+}
+
+
+
+.product {
+    width: 400px;
+    /* background-color: red; */
+    text-align: left;
+    display: flex;
+}
+
+.textToFormat {
+
+    text-align: left;
+    display: flex;
+}
+
+p {
+    margin-right: 2px;
+    display: inline-block;
+    box-sizing: border-box;
+
+}
+
+.plus {
+    /* float: right; */
+    display: inline-block;
+    width: 30px;
+}
+
+.minus {
+    /* float: right; */
+    display: inline-block;
+    width: 30px;
+}
+
+p {
+    text-align: left;
+    word-spacing: 2px;
+    margin-right: 10px;
+
+}
+
+
+.value {
+    width: 20px;
+    margin-right: 1px;
+    margin-left: 2px;
+    /* float: right; */
+    display: inline-block;
+    border: 1px black solid;
+    border-radius: 1px;
+    text-align: center;
+
+
+
+}
+
+.unit {
+    /*  display: inline-block; */
+    margin-right: 40px;
+    height: 20px;
+    width: 100px;
+    display: inline-block;
+    border: 1px solid black;
+
+}
+
+.optionBtn {
+    margin-right: 10px;
+    display: inline-block;
+    width: 50px;
+
+
+
+}
+
+
+
+.remove {
+    /* float: right; */
+
+    display: inline-block;
+}
+
+.textContainer {
+    text-align: center;
+    /*  display: none; */
+    /* visibility: hidden; */
+
+}
